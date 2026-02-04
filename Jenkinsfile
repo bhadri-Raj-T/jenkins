@@ -1,9 +1,6 @@
 pipeline {
     agent any
 
-    environment {
-        DOCKER = '"C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe"'
-    }
 
     stages {
         stage('Build Docker Image') {
